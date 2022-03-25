@@ -1,9 +1,7 @@
 .sample {
     text-align: center;
-  }
-  .sample > div {
-    display: inline-block;
-    margin: 0 30px;
+    font-size: x-large;
+    
   }
 
   .search_container{
@@ -26,7 +24,7 @@
     font-size: 1.3em;
     border: none;
     background: none;
-    color: #3879D9;
+    color: #000000;
     outline : none;
     display: inline-block;
     vertical-align: middle;
@@ -40,16 +38,155 @@
     box-sizing: border-box;
     padding: 40px 80px;  
   }
-
-  .color0 {
-    background-color: rgb(195, 234, 240);
-  }
-
-  .color1 {
-    height: 250px;
-    background-color: rgb(188, 225, 240);
-  }
   .color2 {
     height: 50px;
-    background-color: rgb(226, 226, 226);
+    background-color: rgb(255, 255, 255);
   }
+
+  body {
+    font-family: sans-serif;
+    color: black;
+    background-color: rgb(255, 255, 255);
+  
+    margin: 0px;
+    
+    padding: 0px;
+  background-image: linear-gradient(0deg, transparent calc(100% - 1px), #f0f0f0 calc(100% - 1px)),
+                      linear-gradient(90deg, transparent calc(100% - 1px), #f0f0f0 calc(100% - 1px));
+  background-size: 16px 16px;
+  background-repeat: repeat;
+  background-position: center center;
+  
+  }
+
+  header {
+    display: flex;
+    width: 100%;
+    background-color: rgb(122, 211, 226);
+    align-items: center;
+  
+  }
+   
+  .title {
+    margin-left: 10px;
+  }
+   
+  #active {
+    margin-right: 30px;
+    list-style: none;
+    display: inline-block;
+    padding: 3px;
+    border:2px solid rgb(255, 84, 255);
+  }
+
+  h2{
+    padding-top: 40px;
+    font-size: 20px;
+    padding-left: 100px;
+  }
+
+  h3{
+    padding-top: 50px;
+    padding-left: 100px;
+    padding-bottom: 10px;
+    font-size: 20px;
+  }
+
+  p{
+    font-size: 20px; 
+    font-weight: 10;
+    padding-left: 100px;
+  }
+
+.jobs{
+  border: 2px solid #000000;
+  border-radius:5px;
+  padding: 10px;
+}
+
+.imagesinindex{
+  width: 500px;
+  height: 400px;
+  opacity: 0.8F;
+  
+}
+
+footer{
+  background-color: rgb(122, 211, 226);
+  height: 40px;
+  margin: 0px;
+  padding: 0px;
+}
+
+nav ul li a {
+
+  color: white;
+  text-decoration: none;
+  }
+
+nav ul li:hover{
+
+  background-color: darkgrey;
+}
+
+nav ul{
+  text-align: center;
+  font-size: 1em;
+}
+
+nav ul li {
+  list-style-type: none;
+  background-color: grey;
+  display: inline;
+  padding: 3px;
+  margin: 5px;
+  border:2px solid rgb(255, 255, 255);
+  border-radius: 3px;
+}
+
+footer p {
+  text-align: center;
+  color: rgb(255, 255, 255);
+  }
+
+#headline{
+  margin: 0;
+  padding:0px;
+}
+
+.jhunt{
+  color: rgb(255, 255, 255);
+}
+
+.jobfound{
+  text-align: center;
+  font-size: 30px;
+}
+
+td{
+  font-weight: 10;
+}
+
+table{
+  padding-left: 100px;
+}
+
+iframe{
+  padding-left: 200px;
+}
+
+h4{
+  font-size: xx-large;
+}
+
+.space{
+  margin-bottom: 100px;
+}
+
+.homea{
+  margin-left: 100px;
+}
+
+.hometext{
+  margin-right: 300px;
+}

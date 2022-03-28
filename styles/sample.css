@@ -49,8 +49,6 @@
     background-color: rgb(255, 255, 255);
   
     margin: 0px;
-    
-    padding: 0px;
   background-image: linear-gradient(0deg, transparent calc(100% - 1px), #f0f0f0 calc(100% - 1px)),
                       linear-gradient(90deg, transparent calc(100% - 1px), #f0f0f0 calc(100% - 1px));
   background-size: 16px 16px;
@@ -80,16 +78,30 @@
   }
 
   h2{
-    padding-top: 40px;
+    margin-top: 50px;
+    margin-left: 100px;
     font-size: 20px;
-    padding-left: 100px;
-  }
+    display: inline-block;
+    padding: 0.5em;/*文字周りの余白*/
+    color: #494949;/*文字色*/
+    background: #f6fbfc;/*背景色*/
+    border: 5px;
+    border-left: solid 5px rgb(122, 211, 226)/*左線（実線 太さ 色）*/ 
+}
+
+    
 
   h3{
-    padding-top: 50px;
-    padding-left: 100px;
-    padding-bottom: 10px;
+    margin-top: 50px;
+    margin-left: 100px;
     font-size: 20px;
+    display: inline-block;
+    padding: 0.5em;/*文字周りの余白*/
+    color: #494949;/*文字色*/
+    background: #f6fbfc;/*背景色*/
+    border: 5px;
+    border-left: solid 5px rgb(122, 211, 226)/*左線（実線 太さ 色）*/ 
+    
   }
 
   p{
@@ -102,6 +114,9 @@
   border: 2px solid #000000;
   border-radius:5px;
   padding: 10px;
+  padding-left: 30px;
+  padding-bottom: 20px;
+  margin: 10px;
 }
 
 .imagesinindex{
@@ -189,4 +204,8 @@ h4{
 
 .hometext{
   margin-right: 300px;
+}
+
+.jobtitle{
+  padding: 4px;
 }

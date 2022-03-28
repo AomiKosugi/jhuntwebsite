@@ -79,7 +79,7 @@
 
   h2{
     margin-top: 50px;
-    margin-left: 100px;
+    margin-left: 300px;
     font-size: 20px;
     display: inline-block;
     padding: 0.5em;/*文字周りの余白*/
@@ -93,7 +93,7 @@
 
   h3{
     margin-top: 50px;
-    margin-left: 100px;
+    margin-left: 300px;
     font-size: 20px;
     display: inline-block;
     padding: 0.5em;/*文字周りの余白*/
@@ -107,7 +107,11 @@
   p{
     font-size: 20px; 
     font-weight: 10;
-    padding-left: 100px;
+    padding-left: 50px;
+  }
+ 
+  .p1{
+   padding-left: 300px;
   }
 
 .jobs{
@@ -117,12 +121,16 @@
   padding-left: 30px;
   padding-bottom: 20px;
   margin: 10px;
+  margin-left: 300px;
+  margin-right: 300px;
 }
 
 .imagesinindex{
   width: 500px;
   height: 400px;
   opacity: 0.8F;
+  margin-left: 200px;
+  padding-bottom: 20px;
   
 }
 
@@ -199,7 +207,8 @@ h4{
 }
 
 .homea{
-  margin-left: 100px;
+  padding-left: 50px;
+  font-size: 20px;
 }
 
 .hometext{
@@ -208,4 +217,8 @@ h4{
 
 .jobtitle{
   padding: 4px;
+}
+
+iframe{
+  margin-left: 100px;
 }

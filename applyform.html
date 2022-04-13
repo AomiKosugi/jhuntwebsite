@@ -1,0 +1,129 @@
+<!DOCTYPE HTML>
+<!-- The following lines are comments>
+Auther:  Aomi Kosugi             Your Name rg Ann Student
+Date Created: 30/2/2022
+Page Description: Home page of Jhunt web site
+Modified 30/2/22 Updated Footer to include icon-->
+
+<body> <!-- Body Tag Start of Body section display on screen -->
+
+    <head>
+        <meta charset="utf-8"/> <!--8-bit character encoding capable of encoding all possible characters-->
+        <meta name="description" content="Job searching website">
+        <meta name="keywords" content="jobs available in different areas, Ireland">
+        <meta name="author" content="Aomi Kosugi">
+        <title>Jhunt website</title>
+        <link rel="stylesheet" type="text/css" href="styles/sample.css"/>
+
+        <style>
+          body {
+              font-family: sans-serif;
+              background-image: url(images/Saint_Peters.jpg);
+              background-repeat: no-repeat;
+              background-size: cover;
+              margin: 0px;
+          }
+  
+          main {
+              margin: 15px 200px;
+              padding: 20px;
+              border: black solid 1px;
+              background: white;
+              min-height: 500px;
+          }
+  
+          header p{
+              font-style: italic;
+              text-align: center;
+              font-weight: 900;
+          }
+          .required{
+              font-weight: bold;
+              color: red;
+          }
+  
+          label{
+              float: left;
+              width: 112px;
+              padding-right: 10px;
+              text-align: right;
+          }
+  
+          input{
+              margin-left: 1em;
+              margin-bottom: .5em;
+              width: 300px;
+              }
+  
+              input[type="checkbox"] {width: 15px;}
+              input[type="radio"] {width: 10px;}
+          
+              #button, #reset {
+                  margin-top: .5em;
+                  width: 8em;
+                  background-color: rgb(193, 237, 248);
+                  border: 2px solid black;
+              }
+      </style>
+    </head>
+
+    <header>
+      <h1 id="headline">
+        <a class="jhunt">Jhunt</a>
+      </h1>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="connaught.html">Connaught</a></li>
+            <li><a href="leinster.html">Leinster</a></li>
+            <li><a href="mulster.html">Munster</a></li>
+            <li><a href="ulster.html">Ulster</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <p>Any queries or feedback please Complete and Submit</p>
+
+      <main>
+        <section>
+          <h4>Please enter the following information</h4>
+          <form action="http:/foo.com" method="post">
+          <label for="first_name">First name:<span class="required">*</span></label>
+     　　　<input type="text" name="first_name" id="first_name" autofocus required> <br>
+          <label for="last_name">Last name:<span class="required">*</span></label>
+          <input type="text" name="last_name" id="last_name" required><br>
+          <label for="email">Email: <span class="required">*</span></label>
+          <input type="email" name="email" id="email" required placeholder="test@example.com"><br>
+          <label for="gender">Gender :</label>
+          <input type="radio" id="gender" name="gender" value="male">Male
+          <input type="radio" id="gender" name="gender" value="female">Female
+          <input type="radio" id="gender" name="gender" value="other" checked>Other<br>
+          <label for="internet"> Heard of us:</label>
+
+          <fieldset>
+              <input type="checkbox" id="internet" name="internet" value="internet" checked> Internet <br>
+              <input type="checkbox" id="marginl" id="hear" name="paper" value="paper" checked> Newspaper <br>
+              <input type="checkbox" id="marginl" id="hear" name="friend" value="friend" checked> Friend<br>
+              <input type="checkbox" id="marginl" id="hear" name="Add" value="Add" checked> Others<br>
+          </fieldset><br>
+
+          <label for="mesasge">Query : </label>
+          <textarea cols="50" rows="6"
+          id="mesasge" name="message" placeholder="Your message must be less than 200 characters"data-maxlength="200"></textarea><br>
+          <input type="submit" name="submit" id="button" value="Submit">
+          <input type="reset" name="reset" id="reset">
+          </form>
+
+          <p style="margin-left: 138px"> <span class="required">*</span><em> indicates a required field </em></p>
+      </section>
+    </main>
+
+    <a href="#top">Go To Top</a>
+    <a id="bottom"></a>
+
+    <html lang="en"> <!-- Declare the primary language for each Web page-->
+
+  <footer>
+      <center><p>Copyright Aomi Kosugi</p></center>
+  </footer>
+</body>

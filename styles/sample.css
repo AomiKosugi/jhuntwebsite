@@ -38,23 +38,11 @@
     box-sizing: border-box;
     padding: 40px 80px;  
   }
-  .color2 {
-    height: 50px;
-    background-color: rgb(255, 255, 255);
-  }
 
   body {
     font-family: sans-serif;
     color: black;
-    background-color: rgb(255, 255, 255);
-  
-    margin: 0px;
-  background-image: linear-gradient(0deg, transparent calc(100% - 1px), #f0f0f0 calc(100% - 1px)),
-                      linear-gradient(90deg, transparent calc(100% - 1px), #f0f0f0 calc(100% - 1px));
-  background-size: 16px 16px;
-  background-repeat: repeat;
-  background-position: center center;
-  
+    margin: 0px;  
   }
 
   header {
@@ -114,6 +102,10 @@
    padding-left: 300px;
   }
 
+  .p2{
+    color: rgb(255, 255, 255);
+  }
+
 .jobs{
   border: 2px solid #000000;
   border-radius:5px;
@@ -128,7 +120,7 @@
 .imagesinindex{
   width: 500px;
   height: 400px;
-  opacity: 0.8F;
+  opacity: 0.8;
   margin-left: 200px;
   padding-bottom: 20px;
   
@@ -136,7 +128,7 @@
 
 footer{
   background-color: rgb(122, 211, 226);
-  height: 40px;
+  height: 90px;
   margin: 0px;
   padding: 0px;
 }
@@ -221,4 +213,110 @@ h4{
 
 iframe{
   margin-left: 100px;
+}
+
+.apply{
+  margin-left: 500px;
+  list-style-type: none;
+  background-color: rgb(214, 214, 214);
+  display: inline;
+  padding: 3px;
+  border:2px solid rgb(134, 133, 133);
+  border-radius: 3px;
+}
+
+.connaught{
+  background-image: url(../images/connaught/galwaybackground.png);
+  
+}
+
+h4{
+margin-top: 50px;
+    margin-left: 100px;
+    font-size: 20px;
+    display: inline-block;
+    padding: 0.5em;/*文字周りの余白*/
+    color: #494949;/*文字色*/
+    border: 5px;
+    }
+
+.leinster{
+  background-image: url(../images/leinster/dublinbackground.png);
+}
+
+.munster{
+  background-image: url(../images/munster/corkbackground.png);
+}
+
+.ulster{
+  background-image: url(../images/ulster/donegalbackground.png);
+}
+
+.active2{
+    margin-right: 30px;
+    list-style: none;
+    display: inline-block;
+    padding: 3px;
+    border:2px solid rgb(255, 84, 255);
+  }
+
+.design{
+  list-style-type: none;
+  color: white;
+  background-color: grey;
+  display: inline;
+  padding: 3px;
+  margin-left: 150px;
+  margin-top: 10px;
+  border:2px solid rgb(255, 255, 255);
+  border-radius: 3px;
+}
+
+div a:hover{
+  background-color: darkgrey;
+}
+
+.colum{
+    column-count: 2;
+    column-rule: 2px solid rgb(255, 255, 255);
+    column-gap: 50px;
+    padding: 2px;
+    margin-right: 150px;
+    margin-left: 150px;
+    text-align: center;
+}
+
+aside 
+{
+    float: right;
+    margin-right: 30px;
+    width :18%;
+    border: 3px solid rgb(151, 151, 151);
+    border-radius: 5px;
+    padding: 0px;
+
+}
+
+aside ul li {
+  list-style-type: none;
+  padding-top: 1px;
+}
+
+aside ul li a {
+  color: rgb(75, 148, 177);
+  text-decoration: none;
+}
+
+h5{
+  padding:  10px;
+  padding-right: 1px;
+  font-size: medium;
+}
+
+h6{
+  font-size: 30px;
+}
+
+.first{
+  width: px;
 }

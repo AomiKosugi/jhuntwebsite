@@ -208,7 +208,7 @@ h4{
   margin-right: 300px;
 }
 
-.jobtitle{
+h6{
   padding: 4px;
 }
 
@@ -315,7 +315,7 @@ h5{
 
 h6{
   font-size: 30px;
-  margin-left: 450px;
+  margin-left: 460px;
 }
 
 .firstimage{
@@ -328,6 +328,5 @@ h6{
   float: right;
   width: 70px;
   margin-right: 570px;
-  margin-left: 0px;
-  margin-top: -15px;
+  margin-top: 50px;
 }

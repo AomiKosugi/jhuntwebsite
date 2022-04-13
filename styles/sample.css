@@ -128,9 +128,10 @@
 
 footer{
   background-color: rgb(122, 211, 226);
-  height: 90px;
+  height: 80px;
   margin: 0px;
   padding: 0px;
+  padding-top: 30px;
 }
 
 nav ul li a {
@@ -231,8 +232,7 @@ iframe{
 }
 
 h4{
-margin-top: 50px;
-    margin-left: 100px;
+    margin-top: 50px;
     font-size: 20px;
     display: inline-block;
     padding: 0.5em;/*文字周りの余白*/
@@ -245,11 +245,11 @@ margin-top: 50px;
 }
 
 .munster{
-  background-image: url(../images/munster/corkbackground.png);
+  background-image: url(../images/munster/kerrybackground.png);
 }
 
 .ulster{
-  background-image: url(../images/ulster/donegalbackground.png);
+  background-image: url(../images/ulster/denegalbackground.png);
 }
 
 .active2{
@@ -317,6 +317,8 @@ h6{
   font-size: 30px;
 }
 
-.first{
-  width: px;
+.firstimage{
+  width: 1440px;
+  height: 400px;
+  opacity: 0.8;
 }

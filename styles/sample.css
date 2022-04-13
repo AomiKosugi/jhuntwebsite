@@ -315,10 +315,19 @@ h5{
 
 h6{
   font-size: 30px;
+  margin-left: 450px;
 }
 
 .firstimage{
   width: 1440px;
   height: 400px;
   opacity: 0.8;
+}
+
+.man{
+  float: right;
+  width: 70px;
+  margin-right: 570px;
+  margin-left: 0px;
+  margin-top: -15px;
 }
